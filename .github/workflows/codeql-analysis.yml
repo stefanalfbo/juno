@@ -19,6 +19,8 @@ on:
     branches: [ main ]
   schedule:
     - cron: '24 2 * * 6'
+  workflow_dispatch:
+    # manually trigger a workflow run
 
 jobs:
   analyze:
